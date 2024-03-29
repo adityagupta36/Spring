@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e195b2bf-9d21-4700-a0af-c4c679983e80" name="Changes" comment="Spring commit and push">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearnSpring/Driver/ClientUsingApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LearnSpring/Driver/ClientUsingBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Beans/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LearnSetterDI_Basics/Bean/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LearnSetterDI_Basics/Driver/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/LearnSetterDI_Basics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SpringIOC_Acc_PVT_Cont.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpring/Beans/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpring/Beans/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpring/Driver/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpring/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Beans/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Beans/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SpringHelloAditya.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,12 @@
     &quot;Application.Client (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClientUsingApplicationContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClientUsingBeanFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IOC_Acc_PVT_Const.Driver.ClientUsingApplicationContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IOC_Acc_PVT_Const.Driver.ClientUsingBeanFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IOC_CoreTest.Driver.ClientUsingApplicationContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IOC_CoreTest.Driver.ClientUsingBeanFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LearnDI_Basics.Driver.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.LearnSpring.Driver.Client.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -56,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java programs intellij/IOC_CoreTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java programs intellij/Spring/src/main/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -71,9 +81,13 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java programs intellij\Spring\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java programs intellij\Spring\src\main\resources" />
+      <recent name="D:\java programs intellij\Spring\src\main\java\IOC_CoreTest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java programs intellij\Spring\src\main\resources" />
+      <recent name="D:\java programs intellij\Spring\src\main" />
       <recent name="D:\java programs intellij\Spring\src\main\java" />
       <recent name="D:\java programs intellij\Spring\src\main\java\LearnSpring" />
       <recent name="D:\java programs intellij\Spring\src\main\LearnSpring" />
@@ -82,20 +96,13 @@
       <recent name="LearnSpring.Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientUsingApplicationContext">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="Spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnSpring.Client" />
+      <option name="MAIN_CLASS_NAME" value="LearnSetterDI_Basics.Driver.Client" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LearnSpringHelloAditya.*" />
+          <option name="PATTERN" value="LearnSetterDI_Basics.Driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnSpring.Main" />
+    <configuration name="IOC_Acc_PVT_Const.Driver.ClientUsingApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOC_Acc_PVT_Const.Driver.ClientUsingApplicationContext" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LearnSpringHelloAditya.*" />
+          <option name="PATTERN" value="IOC_Acc_PVT_Const.Driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,15 +149,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="IOC_Acc_PVT_Const.Driver.ClientUsingBeanFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOC_Acc_PVT_Const.Driver.ClientUsingBeanFactory" />
       <module name="Spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Spring" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IOC_Acc_PVT_Const.Driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,10 +165,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientUsingApplicationContext" />
+        <item itemvalue="Application.IOC_Acc_PVT_Const.Driver.ClientUsingApplicationContext" />
+        <item itemvalue="Application.IOC_Acc_PVT_Const.Driver.ClientUsingBeanFactory" />
         <item itemvalue="Application.ClientUsingBeanFactory" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711625992826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Spring commit and push">
+      <option name="closed" value="true" />
+      <created>1711636431689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711636431689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
