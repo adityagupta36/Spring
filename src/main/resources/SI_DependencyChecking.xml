@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="e1" class="SI_DependencyChecking.bean.Engine" >
+        <!--we need to call primitive setter-->
+        <property name="modelyear" value="2015" />
+    </bean>
+
+
+<!--    <bean id="c" class="SI_DependencyChecking.bean.Car" dependency-check="none">
+        &lt;!&ndash;no need to call any setter&ndash;&gt;
+    </bean>-->
+
+<!--    <bean id="c" class="SI_DependencyChecking.bean.Car" dependency-check="simple">
+        &lt;!&ndash;we need to call primitive setter&ndash;&gt;
+        <property name="carname" value="AUDI" />
+    </bean>-->
+
+<!--    <bean id="c" class="SI_DependencyChecking.bean.Car" dependency-check="object">
+        &lt;!&ndash;we need to call Secondary setter&ndash;&gt;
+        <property name="engine" ref="e1" />
+    </bean>-->
+
+ <!--   <bean id="c" class="SI_DependencyChecking.bean.Car" dependency-check="all">
+        &lt;!&ndash;we need to call both secondary and primitive setter&ndash;&gt;
+        <property name="carname" value="AUDI" />
+        <property name="engine" ref="e1" />
+    </bean>-->
+
+    <bean id="c" class="SI_DependencyChecking.bean.Car">
+        <property name="carname" value="AUDI" />
+        <property name="engine" ref="e1" />
+    </bean>
+
+
+</beans>
