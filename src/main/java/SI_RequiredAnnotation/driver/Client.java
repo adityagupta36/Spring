@@ -1,6 +1,7 @@
 package SI_RequiredAnnotation.driver;
 
 import SI_RequiredAnnotation.bean.Test;
+import org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,5 +11,6 @@ public class Client {
         ApplicationContext c = new ClassPathXmlApplicationContext("SI_RequiredAnnotation.xml");
         Test t = (Test)c.getBean("t");
         t.printCon();
+
     }
 }

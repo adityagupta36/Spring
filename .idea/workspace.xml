@@ -5,41 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e195b2bf-9d21-4700-a0af-c4c679983e80" name="Changes" comment="Spring commit and push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_PrimiAndSecondary_Type_Aray/Bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_PrimiAndSecondary_Type_Aray/Bean/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_PrimiAndSecondary_Type_Aray/Driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Properties/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Properties/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Properties_FromFile/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Properties_FromFile/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/beans/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/beans/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/beans/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_CI_usingP_C_namespace/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_CI_usingP_C_namespace/bean/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_CI_usingP_C_namespace/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DI_Collections/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DI_Collections/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DI_UndefaultCollections/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DI_UndefaultCollections/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DependencyChecking/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DependencyChecking/bean/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_DependencyChecking/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DI_PrimiAndSecondary_Type_Aray.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DI_Properties.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DI_Properties_FromFile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Depends_on_Atribute.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Drivers.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SI_CI_usingP_C_namespace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SI_DI_Collections.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SI_DI_UndefaultCollections.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SI_DependencyChecking.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SI_RequiredAnnotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowired_Qualifier_Anno/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowired_Qualifier_Anno/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowired_Qualifier_Anno/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByName/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByName/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByName/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByTypee/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByTypee/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_ByTypee/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_Constructor/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_Constructor/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Autowiring_XML_Constructor/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/bean/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Autowired_Qualifier_Anno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Autowiring_XML_ByName.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Autowiring_XML_ByType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Autowiring_XML_Constructor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StereoAnn_Component.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Setter_DI_ArraydataType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Setter_DI_ArraydataType.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SI_CI_usingP_C_namespace/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SI_CI_usingP_C_namespace/bean/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/bean/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/driver/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SI_RequiredAnnotation/driver/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SI_RequiredAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SI_RequiredAnnotation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +64,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.A.executor": "Run",
+    "Application.Autowired_Qualifier_Anno.driver.Test.executor": "Run",
+    "Application.Autowiring_XML_ByName.driver.Test.executor": "Run",
+    "Application.Autowiring_XML_Constructor.driver.Test.executor": "Run",
+    "Application.AutowirwAnn.driver.Test.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.Client (1).executor": "Run",
     "Application.Client.executor": "Run",
@@ -87,6 +84,7 @@
     "Application.LearnConstDI_Basics.Driver.Client.executor": "Run",
     "Application.LearnDI_Basics.Driver.Client.executor": "Run",
     "Application.LearnSpring.Driver.Client.executor": "Run",
+    "Application.LearnSpringHelloAditya.Driver.ClientUsingBeanFactory.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SI_CI_usingP_C_namespace.driver.Client.executor": "Run",
     "Application.SI_DI_Collections.driver.Client.executor": "Run",
@@ -94,6 +92,12 @@
     "Application.SI_RequiredAnnotation.driver.Client.executor": "Run",
     "Application.Setter_DI_ArraydataType.Driver.Client.executor": "Run",
     "Application.Setter_DI_SecondaryDataTypes.Driver.Client.executor": "Run",
+    "Application.Singleton (1).executor": "Run",
+    "Application.Singleton.executor": "Run",
+    "Application.StereoAnn_Component.bean.driver.Test.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.com.Aditya.StereoAnn_Component.bean.driver.Test.executor": "Run",
+    "Application.com.StereoAnn_Component.bean.driver.Test.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -103,8 +107,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "19",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/adity/Downloads/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/java programs intellij/Spring/src/main/java/Autowiring_XML_Constructor",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -119,11 +123,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java programs intellij\Spring\src\main\java\Autowiring_XML_Constructor" />
+      <recent name="D:\java programs intellij\Spring\src\main\java\Autowiring_XML_ByType" />
       <recent name="D:\java programs intellij\Spring\src\main\java\SI_DI_UndefaultCollections" />
       <recent name="D:\java programs intellij\Spring\src\main\java\Setter_DI_ArraydataType\Bean" />
       <recent name="D:\java programs intellij\Spring\src\main\resources" />
-      <recent name="D:\java programs intellij\Spring\src\main\java\LearnConstDI_Basics" />
-      <recent name="D:\java programs intellij\Spring\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java programs intellij\Spring\src\main\resources" />
@@ -133,18 +137,27 @@
       <recent name="D:\java programs intellij\Spring\src\main\LearnSpring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Autowiring_XML_Constructor" />
+      <recent name="Autowiring_XML_ByType" />
       <recent name="Setter_DI_ArraydataType.Driver" />
       <recent name="LearnConstDI_Basics.Bean" />
       <recent name="LearnSpring.Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SI_CI_usingP_C_namespace.driver.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SI_DependencyChecking.driver.Client" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton" />
+      <module name="Spring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StereoAnn_Component.bean.driver.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StereoAnn_Component.bean.driver.Test" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SI_DependencyChecking.driver.*" />
+          <option name="PATTERN" value="StereoAnn_Component.bean.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Depends_on_Atribute.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Depends_on_Atribute.driver.Client" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StereoAnn_Component.driver.Test" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Depends_on_Atribute.driver.*" />
+          <option name="PATTERN" value="StereoAnn_Component.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SI_CI_usingP_C_namespace.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SI_CI_usingP_C_namespace.driver.Client" />
+    <configuration name="com.Aditya.StereoAnn_Component.bean.driver.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Aditya.StereoAnn_Component.bean.driver.Test" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SI_CI_usingP_C_namespace.driver.*" />
+          <option name="PATTERN" value="com.Aditya.StereoAnn_Component.bean.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,25 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SI_DI_UndefaultCollections.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SI_DI_UndefaultCollections.driver.Client" />
+    <configuration name="com.StereoAnn_Component.bean.driver.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.StereoAnn_Component.bean.driver.Test" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SI_DI_UndefaultCollections.driver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SI_RequiredAnnotation.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SI_RequiredAnnotation.driver.Client" />
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SI_RequiredAnnotation.driver.*" />
+          <option name="PATTERN" value="com.StereoAnn_Component.bean.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SI_CI_usingP_C_namespace.driver.Client" />
-        <item itemvalue="Application.SI_DI_UndefaultCollections.driver.Client" />
-        <item itemvalue="Application.Depends_on_Atribute.driver.Client" />
-        <item itemvalue="Application.SI_RequiredAnnotation.driver.Client" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StereoAnn_Component.bean.driver.Test" />
+        <item itemvalue="Application.com.Aditya.StereoAnn_Component.bean.driver.Test" />
+        <item itemvalue="Application.com.StereoAnn_Component.bean.driver.Test" />
+        <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711755019689</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring commit and push">
+      <option name="closed" value="true" />
+      <created>1712186885844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712186885844</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

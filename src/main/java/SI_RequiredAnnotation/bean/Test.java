@@ -1,7 +1,7 @@
 package SI_RequiredAnnotation.bean;
 
-import org.springframework.beans.factory.annotation.Required;
-import org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor;
+//import org.springframework.beans.factory.annotation.Required;
+//import org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,7 +15,7 @@ public class Test {
     String password;
     String checkReqAnnot;
 
-    @Required
+  /*  @Required
     public void setDriver(String driver) {
         this.driver = driver;
     }
@@ -30,9 +30,13 @@ public class Test {
     @Required
     public void setPassword(String password) {
         this.password = password;
-    }
-
+    }*/
+/*
     @Required
+    public void setCheckReqAnnot(String checkReqAnnot) {
+        this.checkReqAnnot = checkReqAnnot;
+    }
+*/
     public void setCheckReqAnnot(String checkReqAnnot) {
         this.checkReqAnnot = checkReqAnnot;
     }
