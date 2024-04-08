@@ -18,8 +18,8 @@ public class ClientUsingBeanFactory {
 
 
 
-//        create Test class Object
-//        bf.getBean("t");                ==>      will create object of class Test having id="t"  //
+//        create Car class Object
+//        bf.getBean("t");                ==>      will create object of class Car having id="t"  //
 //        To store the Object created...
 //        public abstract Object getBean  ==> Object type RETURN TYPE
 //        Object o = bf.getBean("t");
@@ -34,7 +34,7 @@ public class ClientUsingBeanFactory {
 
 
 
-//        Test test = (Test) o;
+//        Car test = (Car) o;
 //        test.Hello();
 
 

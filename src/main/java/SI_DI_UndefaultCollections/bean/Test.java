@@ -20,7 +20,7 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test{" +
+        return "Car{" +
                 "fruits=" + fruits +
                 ", cricketers=" + cricketers +
                 ", countries_cap=" + countries_cap +

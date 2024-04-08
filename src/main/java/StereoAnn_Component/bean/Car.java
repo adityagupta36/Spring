@@ -4,11 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+import javax.inject.Named;
 
-@Component
-public class Car {
+
+//@
+@Named
+public class  Car {
     @Autowired
-    @Qualifier(value = "e1")
+    @Qualifier(value = "e2")
     private Engine engine;
 
 

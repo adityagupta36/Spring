@@ -12,7 +12,7 @@ public class ClientUsingApplicationContext {
         Object o = context.getBean("t");
 
         Test t = (Test)o;
-//        Test t = (Test)context.getBean("t");
+//        Car t = (Car)context.getBean("t");
 
         t.Hello();
 

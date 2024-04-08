@@ -14,7 +14,7 @@
 
     <!--parameterized const of 3 arg will be called: following order without index-->
 <!--
-    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="Aditya" />
         <constructor-arg value="26" />
         <constructor-arg value ="@gmail.com" />
@@ -38,7 +38,7 @@
 
     <!-- parameterized const of 2 arg will be called -->
 <!--
-    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="26" type="int" />
         <constructor-arg value="Aditya" type="String" />
     </bean>
@@ -48,7 +48,7 @@
 
     <!--parameterized const of 2 arg will be called: following order-->
 <!--
-    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="Aditya"  />
         <constructor-arg value="26"  />
     </bean>
@@ -57,7 +57,7 @@
 
 
 <!--    parameterized const of 2 arg will be called-->
-<!--    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+<!--    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="26"  />      &lt;!&ndash;//it will be passed as String to name&ndash;&gt;
         <constructor-arg value="30"  />
     </bean>-->
@@ -66,7 +66,7 @@
 
 
    <!-- single arg const will be called-->
-<!--    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+<!--    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="26"  />      &lt;!&ndash;//it will be passed as String to name&ndash;&gt;
     </bean>-->
 
@@ -74,7 +74,7 @@
 
 
     <!-- single arg const will be called-->
-<!--    <bean class="LearnConstDI_Basics.Bean.Test" id="t"  >
+<!--    <bean class="LearnConstDI_Basics.Bean.Car" id="t"  >
         <constructor-arg value="26" type="int"  />      &lt;!&ndash;//it will be passed as int to age&ndash;&gt;
     </bean>-->
 

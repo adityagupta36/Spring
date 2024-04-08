@@ -26,14 +26,14 @@ public class Test {
 
 //    <-------------------------->various possibliities<------------------------>
 /*
-public Test(String name){
+public Car(String name){
     this.name=name;
 }
-public Test(String name, int age){
+public Car(String name, int age){
     this.name=name;
     this.age=age;
 }
-public Test(int age){
+public Car(int age){
     this.age = age;
 }
 

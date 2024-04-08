@@ -11,15 +11,13 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <context:component-scan base-package="StereoAnn_Component.bean" />
+
     <context:annotation-config/>
 
 
-    <bean  id ="e1" class="StereoAnn_Component.bean.Engine">
-        <property name="engname" value="Audi Engine"/>
-    </bean>
-    <bean  id ="e2" class="StereoAnn_Component.bean.Engine">
-        <property name="engname" value="Mercedes Engine"/>
+    <bean id="c" class="LookupMethod_DI.bean.Car" >
+        <lookup-method name="myEngine" bean="e"/>
     </bean>
 
+    <bean id="e" class="LookupMethod_DI.bean.Engine"/>
 </beans>

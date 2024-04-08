@@ -19,7 +19,7 @@ public class ClientUsingBeanFactory {
 
 //        Object o = bf.getBean("t");
 
-//        Test test = (Test) o;
+//        Car test = (Car) o;
 //        test.Hello();
 
 

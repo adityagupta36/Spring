@@ -11,15 +11,26 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
-    <context:component-scan base-package="StereoAnn_Component.bean" />
+
     <context:annotation-config/>
 
 
-    <bean  id ="e1" class="StereoAnn_Component.bean.Engine">
-        <property name="engname" value="Audi Engine"/>
-    </bean>
-    <bean  id ="e2" class="StereoAnn_Component.bean.Engine">
-        <property name="engname" value="Mercedes Engine"/>
+<!--    Instance variable-->
+<!--    <bean id="c" class="DI_Static.bean.Car">
+        <property name="carname" value="Audi"/>
+    </bean>-->
+
+
+    <bean id="c" class="DI_Static.bean.Car"/>
+
+    <!--    Static variable DI-->
+    <bean id="c1" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean" >
+        <property name="staticMethod" value="DI_Static.bean.Car.setCarname"/>
+        <property name="arguments" >
+            <list>
+                <value>"Audi"</value>
+            </list>
+        </property>
     </bean>
 
 </beans>
