@@ -5,46 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e195b2bf-9d21-4700-a0af-c4c679983e80" name="Changes" comment="Spring commit and push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLC_Annotations/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLC_Annotations/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLC_XML/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLC_XML/bean/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLC_XML/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLifecycles_ProgrammaticApproach/bean/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanLifecycles_ProgrammaticApproach/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Static/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DI_Static/driver/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/student/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/student/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/student/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JDBC/student/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LookupMethod_DI/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LookupMethod_DI/bean/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LookupMethod_DI/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodReplacer/bean/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodReplacer/bean/NewInterestCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MethodReplacer/driver/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/BeanLC_Annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/BeanLC_XML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/BeanLifecycles_ProgrammaticApproach.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/DI_Static.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/LookupMethod_DI.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MethodReplacer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PropInjectionUsingExpressions/bean/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PropInjectionUsingExpressions/driver/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PropInjectionUsingExpressions.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Autowired_Qualifier_Anno/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Autowired_Qualifier_Anno/bean/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/beans/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Depends_on_Atribute/beans/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOC_Acc_PVT_Const/Driver/ClientUsingBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnConstDI_Basics/Bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnConstDI_Basics/Bean/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Beans/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Beans/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LearnSpringHelloAditya/Driver/ClientUsingBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SI_DI_Collections/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SI_DI_Collections/bean/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SI_DI_UndefaultCollections/bean/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SI_DI_UndefaultCollections/bean/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/bean/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/bean/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/driver/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StereoAnn_Component/driver/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/LearnConstDI_Basics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LearnConstDI_Basics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StereoAnn_Component.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StereoAnn_Component.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Drivers.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Drivers.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +74,7 @@
     "Application.LookupMethod_DI.driver.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MethodReplacer.driver.Client.executor": "Run",
+    "Application.PropInjectionUsingExpressions.driver.Test.executor": "Run",
     "Application.SI_CI_usingP_C_namespace.driver.Client.executor": "Run",
     "Application.SI_DI_Collections.driver.Client.executor": "Run",
     "Application.SI_DI_UndefaultCollections.driver.Client.executor": "Run",
@@ -133,9 +100,9 @@
     "jdk.selected.JAVA_MODULE": "19",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/adity/Downloads/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.28867236",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.externalResources"
   },
@@ -169,7 +136,7 @@
       <recent name="LearnSpring.Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.PropInjectionUsingExpressions.driver.Test">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DI_Properties.driver.Client" />
       <module name="Spring" />
@@ -183,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LookupMethod_DI.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LookupMethod_DI.driver.Client" />
+    <configuration name="DI_Properties_FromFile.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DI_Properties_FromFile.driver.Client" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LookupMethod_DI.driver.*" />
+          <option name="PATTERN" value="DI_Properties_FromFile.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReplacer.driver.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodReplacer.driver.Client" />
+    <configuration name="PropInjectionUsingExpressions.driver.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PropInjectionUsingExpressions.driver.Test" />
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MethodReplacer.driver.*" />
+          <option name="PATTERN" value="PropInjectionUsingExpressions.driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PropInjectionUsingExpressions.driver.Test" />
+        <item itemvalue="Application.DI_Properties_FromFile.driver.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.StereoAnn_Component.driver.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MethodReplacer.driver.Client" />
-        <item itemvalue="Application.LookupMethod_DI.driver.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712276859069</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring commit and push">
+      <option name="closed" value="true" />
+      <created>1712536421404</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712536421404</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
